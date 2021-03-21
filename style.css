@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 19px;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 80%;
     height: 100vh;
 }
 
@@ -66,7 +66,8 @@ body {
 }
 
 .instagram-logo {
-    height: 3rem;
+    height: 4rem;
+    margin: 10px;
 }
 
 .profile-photo {
@@ -74,23 +75,58 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    width: 190px;
+    /* height: 100px; */
     overflow: hidden;
 }
 
 .profile-photo {
-    height: 6rem;
+    height: 10rem;
+    margin-bottom: 20px ;
+    margin-top: 20px;
 }
 
 .instagram-login {
     background-color: #0095f4;
     color: #ffffff;
-    padding: 8px;
-    border-radius: 1rem;
+    margin: 10px;
+
+    padding: 10px;
+    border-radius: 5px;
+    width: 310px;
+    height: 40px;
+}
+
+.div {
+    margin: 10px 40px 10px;
+}
+
+hr.solid {
+    border-top: 1px solid #bbb;
+    border-left: 100px solid #bbb;
+    /* border-radius: 10px; */
 }
 
 .instagram-logout {
     color: #0095f4;
-    margin-top: 1rem;
+    margin-top: 0.1rem;
+}
+
+p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.link1 {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.link2 {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
 }
 
 .not-account {
@@ -138,25 +174,42 @@ body {
 
 @media (max-width: 1024px) {
     .instagram-wrapper {
-        width: 90%;
+        width: 80%;
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 599px) {
     .body {
         background-color: rgb(243, 243, 243);
+        height: 100em;
+        display: flex;
+        justify-content: center;
     }
+
     .instagram-wrapper {
-        width: 90%;
+        width: 100%;
     }
+
     .instagram-phone {
         display: none;
     }
+
     .instagram-continue {
         width: 100%;
     }
 
     .group {
-        border: 1px solid transparent;
+        border: 0.01px solid transparent;
+    }
+    .link1 {
+        height: 2rem;
+        width: 8rem;
+        background-size: cover;
+    }
+    
+    .link2 {
+        height: 2rem;
+        width: 8rem;
+        background-size: cover;
     }
 }
